@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body style="background-color: lightblue;">
+<form border="20">
+<fieldset>
+<legend> USER PERSONAL INFORMATION </legend>
+Enter full name:
+<br>
+<input type="text"style="height: 20px; width: 300px;">
+<br><br>
+Enter your email:
+<br>
+<input type="text"style="height: 20px; width: 300px;">
+<br><br>
+Enter your password:
+<br>
+<input type="text"style="height: 20px; width: 300px;">
+<br><br>
+Confirm your password:
+<br>
+<input type="text"style="height: 20px; width: 300px;">
+<br><br>
+Enter yout gender:
+<br>Male
+<input type="radio" id="male" name="gender" gender="male">
+Female
+<input type="radio" id="female" name="gender" gender="female">
+Other
+<input type="radio" id="other" name="gender" gender="other">
+<br><br>
+Select one international language you know
+<br>
+<select id="English" name="English" style="height: 25px; width: 300px;">
+<option> English </option>
+<option> Hindi </option>
+<option> Germany </option>
+<option> Chinese </option>
+<option> French </option>
+</select>
+<br><br>
+Enter your date of birth:
+<br>
+<input type="date" style="height: 25px; width: 300px;">
+<br><br>
+Enter your address:
+<br>
+<input type="text" style="height: 50px; width: 300px;">
+<br><br>
+Please upload your photograph
+<br>
+<input type="file">
+<br><br>
+Duration of undergraduate degree
+<br>
+<input type="range">
+<br><br>
+&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input type="submit">
+</fieldset>
+</body>
+</html>
+
